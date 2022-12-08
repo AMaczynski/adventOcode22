@@ -120,12 +120,9 @@ public class Ex2 {
             for (int i = 0; i < howMany; i++) {
                 tmpStack.push(stackArray[from - 1].pop());
             }
-
             for (int i = 0; i < howMany; i++) {
                 stackArray[to - 1].push(tmpStack.pop());
             }
-
-
         }
         for (int i = 0; i < 9; i++) {
             System.out.print(stackArray[i].pop());
